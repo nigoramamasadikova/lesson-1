@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.all{
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    margin-bottom: 50px;
+}
+ .inputt input{
+    padding: 15px 100px;
+    border-radius: 10px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    font-size: 22px;
+    outline: none;
+}
+input::placeholder{
+    color: tomato;
+}
+input:focus{
+    background-color: gold;
+    color: brown;
+    border: 3px solid rgba(217, 217, 217, 1);
+}
+.all-1{
+    display: flex;
+    gap: 50px;
+}
+.link-1{
+    display: flex;
+    gap: 10px;
+}
+.soz h5{
+    margin-bottom: 8px;
+}
+.link-3{
+    display: flex;
+    gap: 10px;
+}
+.soz-1 h5{
+    margin-bottom: 9px;
+}
+hr{
+    margin-bottom: 25px;
+}
+.big img{
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 35px;
+}
+.big h1{
+    font-weight: 400 ;
+    font-size: 50px;
+}
+.displey{
+    padding: 100px 0px;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+.do{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: rgba(239, 239, 239, 1);
+}
+.do h3{
+    text-align: center;
+}
+.do img{
+    padding: 35px;
+    margin-bottom: 10px;
+}
+.soz-5 h1{
+    font-weight: 400 ;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.box{
+    width: 280px;
+    height: 350px;
+    background-color: rgba(239, 239, 239, 1);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.naush img{
+    padding: 10px;
+    width: 300px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.fleh input{
+    padding: 5px 3px;
+    border-radius: 8px;
+}
+.fleh{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.ags-1{
+    position: relative;
+}
+.ags{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    left: 20px;
+    top: 15px;
+}
+.ags img{
+    padding: 7px;
+    width: 40px;
+}
+.pas-1{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+.line{
+    text-decoration: line-through;
+}
+.border{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+}
+.border h2{
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+}
+.displey-1{
+    display: flex;
+    gap: 28px;
+    margin-bottom: 100px;
+}
+.ehe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.pas{
+    margin-bottom: 50px;
+}
+.naush-1 img{
+    padding: 10px;
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.naush-2 img{
+    padding: 10px;
+    width: 280px;
+    padding-left: 18px;
+    padding-top: 65px;
+}
+.naush-3 img{
+    padding: 10px;
+    width: 265px;
+    padding-left: 15px;
+}
+.naush-4 img{
+    padding: 10px;
+    width: 300px;
+    padding-top: 30px;
+}
+.naush-5 img{
+    padding: 10px;
+    width: 270px;
+    padding-top: 10px;
+}
+.naush-6 img{
+    padding: 15px;
+    width: 270px;
+    padding-top: 35px;
+}
+.white{
+    width: 850px;
+    height: 580px;
+    background-color: rgba(246, 246, 246, 1);
+    padding: 25px;
+    display: flex;
+    border-radius: 8px;
+}
+.dowland{
+    width: 300px;
+    height: 530px;
+    background-color: rgba(239, 239, 239, 1);
+    border-radius: 10px;
+}
+.dowland img{
+    width: 305px;
+    padding-top: 80px;
+}
+.item{
+    padding-left: 60px;
+    padding-top: 75px;
+}
+.item h3{
+    font-weight: 400 ;
+    font-size: 40px;
+}
+.wraper h2{
+    font-weight: 250 ;
+    font-size: 25px;
+}
+.wrap{
+    width: 125px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 44px;
+}
+.wrap h4{
+    text-align: center;
+    padding-top: 8px;
+}
+.wraper{
+    display: flex;
+    gap: 20px;
+}
+
+.item-1{
+    background-color: rgba(255, 255, 255, 1);
+    width: 285px;
+    height: 75px;
+    border-radius: 8px;
+    font-weight: 400 ;
+    font-size: 15px;
+}
+.item-2{
+    padding-left: 35px;
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.all-5{
+    display: flex;
+    gap: 20px;
+}
+.krasovka{
+    width: 450px;
+    height: 280px;
+    background-color: rgba(246, 246, 246, 1);
+    border-radius: 8px;
+}
+.krasovka h1{
+    font-weight: 350 ;
+    font-size: 40px;
+}
+.krasovka{
+    position: relative;
+}
+.krasovka img{
+    width: 250px;
+    position: absolute;
+    bottom: -70px;
+    left: 90px;
+}
+.uf{
+    padding-top: 15px;
+    padding-left: 50px;
+}
